@@ -1,0 +1,258 @@
+[
+	{
+		"name": "GatewayHelloData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayReadyDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayInvalidSessionData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayApplicationCommandPermissionsUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayAutoModerationRuleCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayAutoModerationRuleUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayAutoModerationRuleDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayAutoModerationActionExecutionDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayChannelCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayChannelUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayChannelDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayChannelPinsUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayThreadCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayThreadUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayThreadDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayThreadListSyncDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayThreadMemberUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayThreadMembersUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayEntitlementCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayEntitlementUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayEntitlementDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildAuditLogEntryCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildBanAddDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildBanRemoveDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildEmojisUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildStickersUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildIntegrationsUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildMemberAddDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildMemberRemoveDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildMembersChunkDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildRoleCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildRoleUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildRoleDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildScheduledEventCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildScheduledEventUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildScheduledEventDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildScheduledEventUserAddDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayGuildScheduledEventUserRemoveDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayIntegrationCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayIntegrationUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayIntegrationDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayInteractionCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayInviteCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayInviteDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayMessageCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayMessageUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayMessageDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayMessageDeleteBulkDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayMessageReactionAddDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayMessageReactionRemoveDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayMessageReactionRemoveAllDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayMessageReactionRemoveEmojiDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayPresenceUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayStageInstanceCreateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayStageInstanceUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayStageInstanceDeleteDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayTypingStartDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayUserUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayVoiceStateUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayVoiceServerUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	},
+	{
+		"name": "GatewayWebhooksUpdateDispatchData",
+		"path": "node_modules/discord-api-types/gateway/v10.d.ts"
+	}
+]
