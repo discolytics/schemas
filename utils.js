@@ -141,6 +141,18 @@ const getType = (name, filePath, alreadyImported, dontAllow = []) => {
 		compilerOptions: { strictNullChecks: true },
 	}).addSourceFileAtPath(filePath);
 
+	// if (name === 'APIEmoji') {
+	// 	console.log(name, filePath);
+	// 	console.log(
+	// 		sourceFile
+	// 			.getInterface(name)
+	// 			.getProperties()
+	// 			.map((prop) => console.log(prop.getText()))
+	// 			);
+	// 			console.log(
+	// 			sourceFile
+	// }
+
 	let prop;
 	if (name.includes('.') && !name.startsWith('import')) {
 		prop = name.split('.')[1];
@@ -194,7 +206,17 @@ const getType = (name, filePath, alreadyImported, dontAllow = []) => {
 	const interfaceDeclaration = sourceFile.getInterface(name);
 	if (interfaceDeclaration) {
 		const obj = {};
-		interfaceDeclaration.getMembers().forEach((property) => {
+		const properties = interfaceDeclaration.getProperties();
+		interfaceDeclaration.getExtends().forEach((x) => {
+			const t = x.getType();
+			const props = t.getProperties();
+			for (const p of props) {
+				const name = p.getName();
+				const exists = properties.find((y) => y.getName() === name);
+				if (!exists) properties.push(p);
+			}
+		});
+		properties.forEach((property) => {
 			const propertyName = property.getName();
 			for (const s of dontAllow) {
 				if (stripImportFromText(property.getType().getText()).includes(s)) {
@@ -203,13 +225,10 @@ const getType = (name, filePath, alreadyImported, dontAllow = []) => {
 				}
 			}
 
-			const propertyType = evalType(
-				property.getType(),
-				filePath,
-				alreadyImported,
-				[],
-				[name]
-			);
+			const t =
+				property.getType?.() ?? property.getDeclarations?.()?.[0]?.getType();
+
+			const propertyType = evalType(t, filePath, alreadyImported, [], [name]);
 			obj[propertyName] = propertyType;
 		});
 		return obj;
