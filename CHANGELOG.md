@@ -1,5 +1,11 @@
 # @discolytics/schemas
 
+## 0.1.4
+
+### Patch Changes
+
+- push latest
+
 ## 0.1.3
 
 ### Patch Changes
